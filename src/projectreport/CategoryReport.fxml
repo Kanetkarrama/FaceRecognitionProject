@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.net.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="489.0" prefWidth="883.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectreport.CategoryReportController">
+   <children>
+      <TableView fx:id="Table" layoutY="-1.0" prefHeight="490.0" prefWidth="663.0">
+        <columns>
+          <TableColumn fx:id="Reason" prefWidth="217.5741792321205" text="Reason" />
+          <TableColumn fx:id="Name" prefWidth="234.42591857910156" text="Name" />
+            <TableColumn fx:id="vDate" prefWidth="234.42591857910156" text="Date" />
+        </columns>
+      </TableView>
+      <TextField fx:id="from" layoutX="700.0" layoutY="102.0" />
+      <TextField fx:id="to" layoutX="700.0" layoutY="194.0" />
+      <Text layoutX="704.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="From:" />
+      <Text layoutX="708.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To:" />
+      <ComboBox fx:id="reasonList" layoutX="701.0" layoutY="304.0" onAction="#selectReason" prefHeight="26.0" prefWidth="163.0" promptText="Visit Reason" />
+   </children>
+</AnchorPane>

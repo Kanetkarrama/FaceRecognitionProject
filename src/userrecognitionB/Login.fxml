@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="447.0" prefWidth="600.0" style="-fx-background-color: #9A0000;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="userrecognitionB.LoginController">
+   <children>
+      <AnchorPane layoutX="41.0" layoutY="32.0" prefHeight="389.0" prefWidth="525.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <ImageView fx:id="loginImage" fitHeight="154.0" fitWidth="155.0" layoutX="185.0" layoutY="31.0">
+               <image>
+                  <Image url="@../../5293f0b9-7a59-480f-b5df-0be159c83c82.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="102.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
+            <Text layoutX="103.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+            <Button fx:id="ok" layoutX="234.0" layoutY="334.0" mnemonicParsing="false" onAction="#loginAction" text="Log in" />
+            <TextField fx:id="loginName" layoutX="185.0" layoutY="213.0" />
+            <PasswordField fx:id="loginPassword" layoutX="185.0" layoutY="271.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

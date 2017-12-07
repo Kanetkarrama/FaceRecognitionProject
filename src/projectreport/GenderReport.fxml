@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectreport.GenderReportController">
+   <children>
+      <PieChart fx:id="pieChart" layoutX="14.0" layoutY="15.0" prefHeight="370.0" prefWidth="394.0" title="Gender Report" />
+      <TextField fx:id="from" layoutX="418.0" layoutY="85.0" />
+      <TextField fx:id="to" layoutX="418.0" layoutY="143.0" />
+      <Text layoutX="424.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="From:" wrappingWidth="68.68292617797852" />
+      <Text layoutX="424.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To:" />
+      <TextField fx:id="male" layoutX="418.0" layoutY="233.0" />
+      <TextField fx:id="female" layoutX="418.0" layoutY="288.0" />
+      <Text layoutX="419.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Male:" />
+      <Text layoutX="421.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Female:" />
+   </children>
+</AnchorPane>
